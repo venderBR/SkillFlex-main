@@ -1,0 +1,588 @@
+.reg{
+    max-height: 1050px;
+    max-width: 1778px;
+    height: 1024px;
+    background-color: #4d455d;
+}
+
+.body{
+    position: absolute !important;
+    right: 0px !important;
+    top: 0 !important;
+    height: 1024px !important;
+    width: 75%!important;
+}
+
+#header{
+    font-family: "Inter", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 30px;
+    right: 35%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+}
+
+.Skill{
+    color: #7db9b6;
+
+}
+
+.Flex{
+    color: white;
+}
+
+.expand-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.menu-background{
+    background: #7db9b6;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+    height: 980px;
+    margin-top: 20px;
+    width: 25%;
+    padding-top: 120px;
+}
+
+/* à¸ªà¹„à¸•à¸¥à¹Œà¸‚à¸­à¸‡à¹€à¸¡à¸™à¸¹à¸£à¸²à¸¢à¸à¸²à¸£ */
+#button {
+    margin-bottom: 40px; 
+    font-size: 30px;
+    color: #4d455d;
+}
+
+/* à¸ªà¹„à¸•à¸¥à¹Œà¸‚à¸­à¸‡à¹€à¸¡à¸™à¸¹à¸£à¸²à¸¢à¸à¸²à¸£à¸—à¸µà¹ˆà¸–à¸¹à¸à¹€à¸¥à¸·à¸­à¸ */
+#button.selected {
+    color: #509c98;
+    background-color: #4d455d;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    width: 100%; 
+    display: block; 
+
+}
+
+#button:hover {
+    background-color: #509c98; 
+    color: #fcfcfc; 
+    height: 60px;
+    transform: scale(1.05); 
+    transition: transform 0.2s ease; 
+}
+
+.reg .boxWhite{
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #e9e2e240;
+    height: 766px;
+    right: 25%;
+    position: absolute;
+    top: 140px;
+    width: 650px;
+}
+
+.skillflex{
+    color: #7a7288;
+    font-family: "Inter", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 760px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+.expanded-color {
+    color: #628d90; 
+}
+
+
+.reg #email_input{
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    height: 60px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 20px;
+    width: 575px;
+}
+
+.reg .inputBox .email_input{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 60px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0em;
+    top: 50px;
+    width: 575px;
+}
+
+.inputBox input:focus ~ .email_input,
+.inputBox input:valid ~ .email_input{
+    color: white;
+    background-color: #7db9b6;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    left: 70px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-23px);
+    padding: 0px;
+}
+
+.inputBox input:hover {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease;
+}
+
+.error_message{
+    color: #e96479;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: -50px;
+}
+
+.inputBox #first_name{
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 45px;
+    position: absolute;
+    top: 80px;
+    width: 276px;
+}
+
+.inputBox .first_name{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 65px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0em;
+    top: 90px;
+    width: 266px;
+}
+
+.inputBox input:focus ~ .first_name,
+.inputBox input:valid ~ .first_name{
+    color: white;
+    background-color: #7db9b6;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    left: 70px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-23px);
+    padding: 0px;
+}
+
+.inputBox #last_name{
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 350px;
+    top: 25px;
+    position: absolute;
+    width: 266px;
+}
+
+.inputBox .last_name{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 374px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0em;
+    top: 35px;
+    width: 266px;
+}
+
+.inputBox input:focus ~ .last_name,
+.inputBox input:valid ~ .last_name{
+    color: white;
+    background-color: #7db9b6;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    left: 384px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-23px);
+    padding: 0px;
+}
+
+.inputBox #phone{
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 45px;
+    position: absolute;
+    top: 70px;
+    width: 570px;
+}
+
+.inputBox .phone{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 65px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0em;
+    top: 80px;
+    width: 575px;
+}
+
+.inputBox input:focus ~ .phone,
+.inputBox input:valid ~ .phone{
+    color: white;
+    background-color: #7db9b6;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    left: 70px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-23px);
+    padding: 0px;
+}
+
+.phon_error{
+    color: #e96479;
+    margin-top: 100px;
+}
+
+.inputBox .textpassword{
+    color: #a6a2ac;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 110px;
+    white-space: nowrap;
+}
+
+.inputBox #password{
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 45px;
+    position: absolute;
+    top: 140px;
+    width: 570px;
+}
+
+.inputBox .password{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 65px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0.1em;
+    top: 150px;
+    width: 575px;
+}
+
+.inputBox input:focus ~ .password,
+.inputBox input:valid ~ .password{
+    color: white;
+    background-color: #7db9b6;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    left: 70px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-25px);
+    padding: 0px;
+}
+
+#toggle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(./hide.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    right: 80px;
+    top: 170px;
+    cursor: pointer;
+}
+
+#toggle.hide
+{   
+    background: url(./eye.png);
+    background-size: cover;
+}
+
+.error-message{
+    color: #e96479;
+    margin-top: 21px;
+    margin-left: 50px;
+}
+
+.inputBox #password2{
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 45px;
+    position: absolute;
+    top: 190px;
+    width: 570px;
+}
+
+.inputBox .comfirmPassword{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 65px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0.1em;
+    top: 205px;
+    width: 575px;
+}
+
+.inputBox input:focus ~ .comfirmPassword,
+.inputBox input:valid ~ .comfirmPassword{
+    color: white;
+    background-color: #7db9b6;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    left: 70px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-25px);
+    padding: 0px;
+}
+
+#toggle2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(./hide.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    right: 80px;
+    top: 225px;
+    cursor: pointer;
+}
+
+#toggle2.hide
+{   
+    background: url(./eye.png);
+    background-size: cover;
+}
+
+
+.checkBox{
+    left: 30px !important;
+    position: absolute !important;
+    top: 10px !important;
+    width: 255px;
+    font-size: 9px !important;
+}
+
+.evencheckbox{
+    position: absolute;
+    top: 10px
+}
+
+.checkBox .checkBox1{
+    color: #a6a2ac;
+}
+
+.checkBox .checkBox2{
+    color: #e96479;
+}
+
+.checkBox .checkBox3{
+    color: #a6a2ac;
+}
+
+.maincheckBox{
+    left: 50px;
+    position: absolute;
+    top: 210px;
+    transform: scale(2);
+}
+
+.boxx:hover{
+    color: #e96479;
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.submitButton{
+    background-color: #4d455d;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 30px;
+    left: 0px;
+    position: absolute;
+    top: 45px;
+    width: 290px;
+}
+
+.signin{
+    font-size: 17px;
+    height: 60px;
+    left: 265px;
+    position: absolute;
+    top: 715px;
+    width: 575px;
+}
+
+.signin .textsignin{
+    color: #7db9b6;
+    text-decoration: none;
+}
+
+.signin .textsignin:hover{
+    color: #e96479;
+    transform: scale(1.8);
+    transition: 0.5s;
+}
+
+.bottomsubmid{
+    background-color: #4d455d;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 45px;
+    position: absolute;
+    top: 250px;
+    width: 570px;
+}
+
+.homepage{
+    color: #a6a2ac;
+    text-decoration: none;
+    font-size: 25px;
+    height: 60px;
+    left: 240px;
+    position: absolute;
+    top: 810px;
+    width: 575px;
+}
+
+.homepage:hover{
+    color: #509c98;
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.email:where(.css-dev-only-do-not-override-amq5gd).ant-form-item .ant-form-item-explain-error {
+    color: #ff4d4f;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 55px;
+    }
+
+.firstName:where(.css-dev-only-do-not-override-amq5gd).ant-form-item .ant-form-item-explain-error {
+    color: #ff4d4f;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 65px;
+}
+
+.lastName:where(.css-dev-only-do-not-override-amq5gd).ant-form-item .ant-form-item-explain-error {
+    color: #ff4d4f;
+    position: absolute;
+    top: 83px;
+    left: 375px;
+}
+
+.phon:where(.css-dev-only-do-not-override-amq5gd).ant-form-item .ant-form-item-explain-error {
+    color: #ff4d4f;
+    position: absolute;
+    top: 127px;
+    left: 65px;
+}
+
+.password:where(.css-dev-only-do-not-override-amq5gd).ant-form-item .ant-form-item-explain-error {
+    color: #ff4d4f;
+    position: absolute;
+    top: 197px;
+    left: 65px;
+}
+
+.confirmPassword:where(.css-dev-only-do-not-override-amq5gd).ant-form-item .ant-form-item-explain-error {
+    color: #ff4d4f;
+    position: absolute;
+    top: 247px;
+    left: 65px;
+}
+
+:where(.css-dev-only-do-not-override-1vr7spz).ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #7db9b6;
+    border-color: #509c98;
+}
+
+:where(.css-dev-only-do-not-override-1vr7spz) a {
+    color: #d6d8dc;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    -webkit-text-decoration-skip: objects;
+    }
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #fff;
+    background-color: #7db9b6;
+    transform: scale(1.05); 
+    transition: transform 0.2s ease;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner, :where(.css-dev-only-do-not-override-amq5gd).ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner {
+    border-color: #7db9b6;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #e96479;
+    border-color: #e96479;
+    }

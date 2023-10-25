@@ -1,0 +1,60 @@
+.layoutOfteacher{
+    width: 100vw;
+}
+
+.layoutOfteacher .bold-italic1 {
+    font-weight: bold;
+    font-style: italic;
+}
+.layoutOfteacher .show{
+    display: 'flex';
+    padding-Left: '70px';
+    font-Size: '18px';
+    margin-Top: '-258px' 
+}
+.layoutOfteacher .show2{
+    padding-Left: '300px';
+    font-Size: '18px';
+    margin-Top: '-258px' 
+}
+.layoutOfteacher .im{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+.show2{
+    z-index: 1;
+}
+
+.layoutOfteacher .infoc{
+    padding-left: '300px';
+    font-Size: 20 ; 
+    margin-Top: '-260px';
+    line-height: 46px;
+    font-size: 20;
+    
+}
+
+  #home11{
+    left: 8%;
+    position: absolute;
+    top: 125%;
+  }
+  .layoutOfteacher .text11 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight:600;
+    left: 40%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 32.5%;
+    text-decoration: none; 
+    background-color: #4d455d;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 5%;
+    width: 12%;
+  }

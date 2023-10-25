@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.selectPage{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    background-color: #4d455d;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 35px 80px rgda(0, 0, 0, 0.15);
+}
+
+.container .card:hover{
+    height: 400px;
+    box-shadow: 0px 0px 40px white;
+}
+
+.container .card .imBx{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container .card:hover .imBx{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgda(0, 0, 0, 0.2);
+}
+
+.container .card .imBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .content{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 30px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container .card:hover .content{
+    top: 150px;
+    height: 250px;
+}
+
+.container .card .content div{
+    color: #5e5e5e;
+}
+.container .card .content .text{
+    padding-top: 30px;
+}
+
+.container .card .content .admin{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #d8c08d;
+}
+
+.container .card .content .yesA{
+    position: relative;
+    top: 80px;
+    padding: 12px 25px;
+    background: #d8c08d;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.container .card .content .student{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #e96479;
+}
+
+.container .card .content .yesS{
+    position: relative;
+    top: 80px;
+    padding: 12px 25px;
+    background: #e96479;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.container .card .content .teacher{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #7db9b6;
+}
+
+.container .card .content .yesT{
+    position: relative;
+    top: 80px;
+    padding: 12px 25px;
+    background: #7db9b6;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+}

@@ -1,0 +1,296 @@
+.element3 {
+    background-color: #4d455d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+}
+.element3 .background {
+    background-color: #FFFFFF;
+    height: 100vw;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+.element3 .registter {
+    left: 43% !important;
+    position: absolute !important;
+    top: 58% !important;
+  }
+.element3 .textBack {
+    color: #4d455d;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    white-space: nowrap;
+}
+.element3 .overlap {
+    height: 459px;
+    left: 0;
+    position: absolute;
+    top: 70px;
+    width: 100vw;
+  }
+  .element3.overlap-group {
+    height: 459px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  } 
+  .element3 .rectangle-2 {
+    height: 60%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .element3 .backgroundpc {
+    height: 100%;
+    width: 100%;
+  }
+  .element3 :where(.css-dev-only-do-not-override-amq5gd).ant-image {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    }
+  .element3 :where(.css-dev-only-do-not-override-1vr7spz).ant-image {
+    position: absolute;
+    display: inline-block;
+    height:  60%;
+    width: 100%;
+}
+
+  .element3 .profilepc {
+    border-radius: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  #gom:where(.css-dev-only-do-not-override-1vr7spz).ant-image .ant-image-mask {
+    border-radius: 100%;
+}
+  .element3 .ellipse {
+    background-color: #c0c3d4;
+    border-radius: 100%;
+    height: 35%;
+    left: 10%;
+    position: absolute;
+    top: 35%;
+    width: 12%;
+  }
+  .element3 .name-lastname {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 25%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 52%;
+  }
+  .element3 .name {
+    background:transparent;
+    border: 1px solid #4d455d;
+    outline: none;
+    font-family: "Inter", Helvetica;
+    font-size: 125%;
+    font-weight: 600;
+    color: #404040;
+    height: 130%;
+    left: 3%;
+    position: absolute;
+    top: 95%;
+    width: 75%;
+  }
+  .element3 .information {
+    background:transparent;
+    border: 1px solid #4d455d;
+    outline: none;
+    font-family: "Inter", Helvetica;
+    font-size: 100%;
+    font-weight: 500;
+    color: #404040;
+    height: 400%;
+    left: 3%;
+    position: absolute;
+    top: 105%;
+    width: 95%;
+    padding:0 5px 80px;
+  }
+  .element3 .ininformation {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 14x;
+    font-weight: 400;
+    left: 27%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 62%;
+    
+  }
+  .element3 .courselist {
+    color: #4d455d;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight:600;
+    left: 30%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3%;
+  }
+  .element3 .rectangle-3 {
+    background-color: #F0F3F8;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+  }
+  .element3 .button {
+  width: 100%; 
+  height: 130%; 
+  border: 0.5px solid #4d455d; 
+  border-radius: 5px; 
+  padding: 0.5px 4px;
+  margin: 10px; 
+  background-color: #4d455d; 
+  color: white; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+}
+.element3 .button1 {
+  width: 10%; 
+  height: 2.3%; 
+  border: 0.5px solid #4d455d; 
+  border-radius: 5px; 
+  padding: 0.5px 4px;
+  margin: 10px; 
+  background-color: #4d455d; 
+  color: white; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+}
+#position1{
+  left: 83%;
+  top: 27.15%;
+}
+#position{
+  left: 0%;
+  top: 5%;
+}
+#position0{
+  left: 59%;
+  top: 27.15%;
+}
+.button1:hover {
+  background-color: #e96479; 
+}
+:where(.css-dev-only-do-not-override-1vr7spz).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #fff;
+  background-color: #e96479;
+}
+.element3 .picture{
+  width: 105px; 
+  height: 105px; 
+  border-radius: 8px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  position: absolute;
+  left: 12%;
+  top: 357%;
+}
+.element3 .picture1{
+  width: 105px; 
+  height: 105px; 
+  border-radius: 8px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  position: absolute;
+  left: 32%;
+  top: 183%;
+}
+.element3 .khob{
+  width: 182.5px; 
+  height: 182.5px; 
+  border: 2px dashed #d9d9d9; 
+  border-radius: 8px; 
+  display: flex;
+  position: absolute;
+  left: 8.5%;
+  top: 5.5%;
+}
+.element3 .khob1{
+  width: 182.5px; 
+  height: 182.5px;
+  border: 2px dashed #d9d9d9; 
+  border-radius: 8px; 
+  display: flex;
+  position: absolute;
+  left: 28.5%;
+  top: 5.5%;
+}
+.element3 :where(.css-dev-only-do-not-override-1vr7spz).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container, :where(.css-dev-only-do-not-override-1vr7spz).ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container, :where(.css-dev-only-do-not-override-1vr7spz).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item-container, :where(.css-dev-only-do-not-override-1vr7spz).ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item-container {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin-block: 0 8px;
+    margin-inline: 0 8px;
+    vertical-align: top;
+}
+.element3 .text {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight:500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: none; 
+}
+#position3{
+  left: 54%;
+  top: 3%;
+}
+#position4{
+  left: 29%;
+  top: 3%;
+}
+#position5{
+  left: 9%;
+  top: 3%;
+}
+.element3 .block{
+    height: 20%;
+    width: 40%;
+    position: absolute;
+    left: 52%;
+    top: 3%;
+}
+.element3 .block1{
+    height: 4%;
+    width: 10%;
+    position: absolute;
+    left: 71%;
+    top: 27%;
+}

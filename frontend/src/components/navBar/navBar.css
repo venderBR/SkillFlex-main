@@ -1,0 +1,15 @@
+.SkillFlex {
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+}
+
+.SkillFlex .skill {
+    color: rgb(50, 50, 50);
+}
+.SkillFlex .flex {
+    color: #E96479;
+}

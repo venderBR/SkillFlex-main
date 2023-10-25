@@ -1,0 +1,336 @@
+.login {
+    max-height: 1050px;
+    max-width: 1778px;
+    height: 100em;
+    background-color: #EFEBE3;
+}
+
+.backgrounpink {
+    position: relative;
+    background: #e96479;
+    width: 1778px;
+    height: 50px;
+    margin-top: 0px;
+    border-radius: 0 0 10px 10px;
+    border-bottom: 4px solid  rgba(110, 102, 83, 1);
+}
+
+.r1{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    background-color: #F5E9CF;
+    border-radius: 50%;
+    border: 2px solid #4d455d;
+    width: 30px;
+    height: 30px;
+}
+
+.r2{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    background-color: #F5E9CF;
+    border-radius: 50%;
+    border: 2px solid #4d455d;
+    width: 30px;
+    height: 30px;
+}
+
+.r3{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: #F5E9CF;
+    border-radius: 50%;
+    border: 2px solid #4d455d;
+    width: 30px;
+    height: 30px;
+}
+
+.r4{
+    position: absolute;
+    top: 10px;
+    right: 90px;
+    background-color: #F5E9CF;
+    border-radius: 50%;
+    border: 2px solid #4d455d;
+    width: 30px;
+    height: 30px;
+}
+
+.login .login_menu-background{
+    font-size: 20px;
+    background: #4d455d;
+    color: #837c93;
+}
+#search{
+    margin-top: 9px;
+}
+
+#Lbotton {
+    width: 100px;
+}
+#Lbotton:hover {
+    background-color: #8C849B;
+    color: #2e2c32;
+    transform: scale(1.08); 
+    transition: transform 0.2s ease;
+}
+
+#Lobotton:hover{
+    transition: 0s;
+    background: #ffe3e7;
+    transform: scale(1.05); 
+    transition: transform 0.2s ease;
+    opacity: 0.5;
+}
+
+.login #buttonL {
+    background-color: #8C849B;
+    color: #2e2c32;
+}
+
+.login #header{
+    color: transparent;
+    font-family: "Inter", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    left: 43%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 130px;
+}
+
+.login .Skill{
+    color: #4d455d;
+
+}
+
+.login .Flex{
+    color: #e96479;
+
+}
+
+.login .boxgreen{
+    background-color: #7db9b6;
+    border-radius: 50px;
+    box-shadow: 0px 6px 6px #00000040;
+    position: absolute;
+    left: 30%;
+    height: 634px;
+    top: 271px;
+    width: 821px;
+}
+
+.login .boxgreen #text{
+    color: transparent;
+    font-family: "Inter", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 182px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 48px;
+    width: 426px;
+}
+
+.login .text1 {
+    color: #2e2c32;
+}
+
+.login .text2 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.login .text3 {
+    color: #e96479;
+    font-weight: 700;
+}
+
+.login #text2{
+    color: transparent;
+    font-family: "Inter", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 270px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 532px;
+    white-space: nowrap;
+    width: 144px;
+}
+
+.login .texx{
+    color: #2e2c32;
+    font-weight: 500;
+    left: 370%;
+    top: 190px;
+    position: absolute;
+}
+
+.texxt:hover{
+    color: #e96479;
+    transform: scale(1.10);
+    transition: 0.5s;
+}
+.login .inputBox .text_password:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+    color: #e96479;
+}
+.login .texxt{
+    color: #ffffff;
+    text-decoration: none;
+    position: absolute;
+    top: 190px;
+    left: 490%;
+}
+
+.login .inputBox #email_input{
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    height: 70px;
+    left: 81px;
+    position: absolute;
+    top: 150px;
+    width: 657px;
+}
+
+.login .inputBox .email_input{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 62px;
+    left: 100px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0em;
+    top: 175px;
+    width: 657px;
+}
+
+.login .inputBox input:focus ~ .email_input,
+.login .inputBox input:valid ~ .email_input{
+    color: white;
+    background-color: #4d455d;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    left: 90px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-35px);
+    padding: 0px;
+}
+
+.login .inputBox input:hover {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease;
+}
+
+.login .inputBox #password{
+    border-radius: 15px;
+    font-size: 25px;
+    height: 70px;
+    left: 79px;
+    position: absolute;
+    top: 270px;
+    width: 657px;
+}
+
+.login .inputBox .password{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 62px;
+    left: 100px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0.1em;
+    top: 295px;
+    width: 657px;
+}
+
+.login .inputBox input:focus ~ .password,
+.login .inputBox input:valid ~ .password{
+    color: white;
+    background-color: #4d455d;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    left: 90px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-35px);
+    padding: 0px;
+}
+
+.login #toggle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(./hide.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    right: 100px;
+    top: 310px;
+    cursor: pointer;
+}
+
+.login #toggle.hide
+{   
+    background: url(./eye.png);
+    background-size: cover;
+}
+
+.login .text_password{
+    color: #4d455d;
+    position: absolute;
+    right: 85px;
+    top: 320px;
+    font-weight: 600;
+}
+
+.login .bottomsubmid{
+    background-color: #4d455d;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 70px;
+    left: 81px;
+    position: absolute;
+    top: 510px;
+    width: 657px;
+}
+
+.login .bottomsubmid:hover {
+    color: #73a6a3;
+    background-color: #c1e2e0;
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+:where(.css-dev-only-do-not-override-3d55ew).ant-menu-light.ant-menu-horizontal >.ant-menu-item, :where(.css-dev-only-do-not-override-3d55ew).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item, :where(.css-dev-only-do-not-override-3d55ew).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu, :where(.css-dev-only-do-not-override-3d55ew).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu {
+    top: 1px;
+    width: 95px;
+    margin-top: -1px;
+    border-radius: 0;
+}
+
+.login a {
+    color: #ffffff;
+    text-decoration: none;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}

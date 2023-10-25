@@ -1,0 +1,105 @@
+/* CSS */
+.gallery-image {
+    position: fixed; /* หรือใช้ position: absolute; ตามที่ต้องการ */
+    top: 0; /* ตำแหน่งแนวตั้ง 0 หมายถึงด้านบน */
+    left: 0; /* ตำแหน่งแนวนอน 0 หมายถึงด้านซ้าย */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ปรับแต่งตามความต้องการ */
+    z-index: 0;
+  }
+  
+.ant-image {
+    /* position: relative; */
+    display: inline-block;
+}
+
+.description {
+  display: "flex";
+  align-items: "center";
+  margin-top: "100px";
+  margin-left: "400px";
+  font-size: "23px";
+  font-weight: "bold";
+  color: "#4D455D";
+}
+
+.select_category {
+  position: absolute;
+  left: 138px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #4D455D;
+  top: 480px;
+
+}
+
+.container {
+  position: relative;
+  width: 1650px;
+  height: 350px;
+  overflow: hidden;
+}
+
+Menutab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* ค่า z-index ที่สูงกว่ารูปภาพเพื่อให้เมนูถูกวางทับ */
+  /* ปรับแต่งตำแหน่งของเมนูตามที่คุณต้องการ */
+}
+
+Image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ให้รูปภาพทำการครอบขนาดของพื้นที่อย่างถูกต้อง */
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  width: 1650px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.menutab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* ค่า z-index ที่สูงกว่ารูปภาพเพื่อให้เมนูถูกวางทับ */
+  /* ปรับแต่งสไตล์ของเมนูตามที่คุณต้องการ */
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ให้รูปภาพทำการครอบขนาดของพื้นที่อย่างถูกต้อง */
+  z-index: 0;
+}
+
+
+.layoutUpLoad{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 100vw;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  }
+
+  Style Attribute {
+    white-space: pre-line;
+    line-height: 1.5;
+    font-size: 20px;
+    top: 150px;
+    text-align: left;
+    padding-left: 110px;
+    position: absolute;
+    }

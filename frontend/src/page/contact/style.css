@@ -1,0 +1,8 @@
+.contact {
+    min-width: fit-content;
+    background: linear-gradient(110deg, #E96479 40%, #ffffff 55%);
+}
+
+html {
+    scroll-behavior: smooth;
+  }

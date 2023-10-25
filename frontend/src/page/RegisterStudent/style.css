@@ -1,0 +1,160 @@
+.reg1{
+    max-height: 1050px;
+    max-width: 1778px;
+    height: 1024px;
+    background-color: #4d455d;
+}
+
+.body{
+    position: absolute !important;
+    right: 0px !important;
+    top: 0 !important;
+    height: 1024px !important;
+    width: 75%!important;
+}
+
+#header1{
+    font-family: "Inter", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 30px;
+    right: 35%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+}
+
+.Skill{
+    color: #7db9b6;
+
+}
+
+.Flex{
+    color: white;
+}
+
+.expand-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.menu-background{
+    background: #7db9b6;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+    height: 980px;
+    margin-top: 20px;
+    width: 25%;
+    padding-top: 120px;
+}
+
+/* สไตล์ของเมนูรายการ */
+#button {
+    margin-bottom: 40px; 
+    font-size: 30px;
+    color: #4d455d;
+}
+
+/* สไตล์ของเมนูรายการที่ถูกเลือก */
+#button.selected {
+    color: #509c98;
+    background-color: #4d455d;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    width: 100%; 
+    display: block; 
+
+}
+
+#button:hover {
+    background-color: #509c98; 
+    color: #fcfcfc; 
+    height: 60px;
+    transform: scale(1.05); 
+    transition: transform 0.2s ease; 
+}
+
+.reg1 .boxWhite1{
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #e9e2e240;
+    height: 766px;
+    right: 25%;
+    position: absolute;
+    top: 140px;
+    width: 650px;
+}
+
+.skillflex{
+    color: #7a7288;
+    font-family: "Inter", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 760px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+.expanded-color {
+    color: #628d90; 
+}
+.reg1 #email_input{
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    height: 60px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 20px;
+    width: 575px;
+}
+
+.reg1 .inputBox .email_input{
+    color: #c5c1cb;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    left: 60px;
+    position: absolute;
+    pointer-events: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0em;
+    top: 50px;
+    width: 575px;
+}
+
+.inputBox input:focus ~ .email_input,
+.inputBox input:valid ~ .email_input{
+    color: white;
+    background-color: #7db9b6;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    left: 70px;
+    font-size: 0.75em;
+    transform: translate(10px) translateY(-23px);
+    padding: 0px;
+}
+
+.inputBox input:hover {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease;
+}
+
+.error_message{
+    color: #e96479;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: -50px;
+}
+

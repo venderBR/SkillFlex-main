@@ -1,0 +1,21 @@
+.cen {
+    position: fixed;
+  }
+  
+  .bold-italic {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+.tablename{
+  position: relative; /* Change 'absolute' to 'relative' */
+  max-width: 70%;
+  width: 50%;
+  margin: 0 auto; /* Center the table horizontally */
+
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper {
+  clear: both;
+  max-width: 80%;
+}
